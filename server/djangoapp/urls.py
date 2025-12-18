@@ -45,6 +45,5 @@ urlpatterns = [
         view=views.add_review,
         name='add_review'
     ),  # add a review for a dealer
-    
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
